@@ -1,0 +1,23 @@
+# 📈 Stock Price Forecasting with EMA and LSTM
+
+This repository presents an end-to-end stock price forecasting project that combines **Exploratory Data Analysis (EDA)**, **Technical Analysis**, and **Deep Learning** to predict the closing price of **Société Générale (GLE.PA)** stock.
+
+The study uses daily historical market data covering the period **2000–2025**. Two forecasting approaches are implemented and compared:
+
+* **Exponential Moving Average (EMA)** for short-term trend forecasting.
+* **Long Short-Term Memory (LSTM)**, a deep learning architecture designed to capture temporal dependencies in financial time series.
+
+The project includes data preprocessing, exploratory analysis, technical visualization, model development, performance evaluation, and prediction of stock closing prices.
+
+## Key Features
+
+* 📊 Exploratory Data Analysis (EDA)
+* 📈 Technical Analysis of historical stock prices
+* 🔄 Exponential Moving Average (EMA) forecasting
+* 🤖 Deep Learning with LSTM neural networks
+* 📉 Stock price prediction and model evaluation
+* 📏 Performance assessment using Mean Squared Error (MSE)
+
+## Results
+
+The EMA model provides effective short-term trend estimation, while the LSTM model successfully captures both short- and long-term price dynamics. Model performance is evaluated using **Mean Squared Error (MSE)**, demonstrating satisfactory predictive capability on the test data.
